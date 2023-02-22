@@ -36,35 +36,35 @@ This was submitted as a project for a course named "statistical learning" offere
   
 •••• Variables are:
 
-• MRI ID            Nominal                 MRI Identification Code
+01• MRI ID            Nominal                 MRI Identification Code
 
-• Subject ID        Nominal                 Patient Identification Code
+02• Subject ID        Nominal                 Patient Identification Code
 
-• M/F               Nominal Qualitative     Gender of the Patient (M/F)
+03• M/F               Nominal Qualitative     Gender of the Patient (M/F)
 
-• Age               Quantitative            Age of the Patient
+04• Age               Quantitative            Age of the Patient
 
-• EDUC              Quantitative            Years of Education
+05• EDUC              Quantitative            Years of Education
 
-• SES               Ordinal Qualitative     Socioeconomic status as assessed by the Hollingshead Index from 1 (highest status) to 5 (lowest status)
+06• SES               Ordinal Qualitative     Socioeconomic status as assessed by the Hollingshead Index from 1 (highest status) to 5 (lowest status)
 
-• CDR               Ordinal Qualitative     Clinical Dementia Rating (0 = no dementia, 0.5 = questionable or very mild, 1 = mild AD, 2 = moderate AD)
+07• CDR               Ordinal Qualitative     Clinical Dementia Rating (0 = no dementia, 0.5 = questionable or very mild, 1 = mild AD, 2 = moderate AD)
 
-• MMSE              Ordinal Quantitative    Mini-Mental State Examination score (range is from 0 = worst to 30 = best)
+08• MMSE              Ordinal Quantitative    Mini-Mental State Examination score (range is from 0 = worst to 30 = best)
 
-• eTIV              Quantitative            Estimated total intracranial volume in mm
+09• eTIV              Quantitative            Estimated total intracranial volume in mm
 
-• nWBV              Quantitative            Normalized whole-brain volume
+10• nWBV              Quantitative            Normalized whole-brain volume
 
-• ASF               Quantitative            Atlas scaling factor
+11• ASF               Quantitative            Atlas scaling factor
 
-• MR Delay          Quantitative            Number of days since the previous visit
+12• MR Delay          Quantitative            Number of days since the previous visit
 
-• Hand              Nominal Qualitative     Dominant hand of the subject (Right, Left)
+13• Hand              Nominal Qualitative     Dominant hand of the subject (Right, Left)
 
-• Visit             Quantitative            Number of the visit of the entry
+14• Visit             Quantitative            Number of the visit of the entry
 
-• Group             Nominal Qualitative     The group the subject belongs to (Demented, Non-Demented, Converted)
+15• Group             Nominal Qualitative     The group the subject belongs to (Demented, Non-Demented, Converted)
 
   
 •••• Data Pre-processing
